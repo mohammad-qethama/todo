@@ -10,7 +10,7 @@ import './todo.scss';
 
 const ToDo = () => {
 
-  const [list,_getTodoItems, _toggleComplete, _addItem,_deleteComplete]= useAJAX()
+  const [list,, _toggleComplete, _addItem,_deleteComplete]= useAJAX()
   return (
     <>
       <header>

@@ -1,9 +1,9 @@
-import React,{useState} from 'react';
+import React from 'react';
 import {Button,Form} from 'react-bootstrap';
 import useForm from '../../hooks/todo/form-hook.js';
 
  const ToDoForm = (props)=> {
-  const [items,handleInputChange,handleSubmit] = useForm(props)
+  const [,handleInputChange,handleSubmit] = useForm(props)
 
 
   return(
