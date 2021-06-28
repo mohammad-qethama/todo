@@ -1,6 +1,7 @@
 import React ,{useState,useEffect}from 'react';
 import TodoForm from './form.js';
 import TodoList from './list.js';
+import axios from 'axios';
 import {Navbar} from 'react-bootstrap';
 
 
@@ -11,9 +12,9 @@ const ToDo = (prev)=>{
   const [list, setList] = useState([]);
   
   const addItem = (item) => {
-    item._id = Math.random();
-    item.complete = false;
-    setList([...list,item])
+    // item._id = Math.random();
+    // item.complete = false;
+    // setList([...list,item])
 
   }
   const toggleComplete = id=>{
