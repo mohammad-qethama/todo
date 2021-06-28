@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mohammad-qethama.github.io/todo/",
   "name": "demo-context-api",
   "version": "1.0.0",
   "description": "",
@@ -15,8 +16,11 @@
     "react-scripts": "3.4.1",
     "uuid": "8.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  },
   "scripts": {
+    "deploy":" gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
