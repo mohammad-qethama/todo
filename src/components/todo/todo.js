@@ -11,9 +11,9 @@ const ToDo = (prev)=>{
   const [list, setList] = useState([]);
   
   const addItem = (item) => {
-    item._id = Math.random();
-    item.complete = false;
-    setList([...list,item])
+    // item._id = Math.random();
+    // item.complete = false;
+    // setList([...list,item])
 
   }
   const toggleComplete = id=>{

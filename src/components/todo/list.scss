@@ -1,0 +1,31 @@
+.toastBody{
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+
+}
+
+.toast-header {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.75rem;
+  color: #6c757d;
+  background-color: rgba(255, 255, 255, 0.85);
+  background-clip: padding-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  justify-content: space-around;
+  font-size: 1rem;
+}
+
+.buttons{
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row-reverse;
+}
+.badge{
+cursor: pointer;
+}
