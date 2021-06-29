@@ -19,3 +19,13 @@
   justify-content: space-around;
   font-size: 1rem;
 }
+
+.buttons{
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row-reverse;
+}
+.badge{
+cursor: pointer;
+}

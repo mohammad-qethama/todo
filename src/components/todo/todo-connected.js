@@ -3,6 +3,7 @@ import TodoForm from './form.js';
 import TodoList from './list.js';
 import { Navbar } from 'react-bootstrap';
 import useAJAX from '../../hooks/todo/AJAX-hook.js';
+// import {SettingContext} from  '../../context/todo/settings-context.js' ;
 
 import './todo.scss';
 
@@ -10,7 +11,10 @@ import './todo.scss';
 
 const ToDo = () => {
 
-  const [list,, _toggleComplete, _addItem,_deleteComplete]= useAJAX()
+  const [list,, _toggleComplete, _addItem,_deleteComplete]= useAJAX();
+  
+  
+  
   return (
     <>
       <header>
