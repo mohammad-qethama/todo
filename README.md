@@ -2,8 +2,8 @@
 
 ## Author: Mohammad Quthama
 
-- [submission PR](https://github.com/mohammad-qethama/todo/pull/2)
-- [master-deployment](https://quirky-hermann-6826ab.netlify.app/)
+- [submission PR](https://github.com/mohammad-qethama/todo/pull/3)
+- [master-deployment](https://modest-bohr-4c7e33.netlify.app/)
 
 ### Setup
 
@@ -17,6 +17,7 @@
 - react-pre
 - web-vitals
 - node-sass@4.14.1
+- bootstrap
 - react-bootstrab
 - axios
 
@@ -32,4 +33,4 @@
 
 #### UML
 
-![UML Diagram](222.jpg)
+![UML Diagram](UML.jpg)
