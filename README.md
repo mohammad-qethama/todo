@@ -2,7 +2,7 @@
 
 ## Author: Mohammad Quthama
 
-- [submission PR](https://github.com/mohammad-qethama/todo/pull/3)
+- [submission PR](https://github.com/mohammad-qethama/todo/pull/4)
 - [master-deployment](https://modest-bohr-4c7e33.netlify.app/)
 
 ### Setup
@@ -20,6 +20,9 @@
 - bootstrap
 - react-bootstrab
 - axios
+- react-if
+- react-cookies
+- jsonwebtoken
 
 #### Devdependencies
 
@@ -33,4 +36,4 @@
 
 #### UML
 
-![UML Diagram](UML.jpg)
+![UML Diagram](index.jpg)
