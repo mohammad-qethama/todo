@@ -49,6 +49,7 @@ useEffect(()=>{
         }).slice(firstIndex,stopIndex)
         .map(item => (
           <Toast
+          
             onClose = {()=>props.handleDelete(item._id)}
             // className={`complete-${item.complete.toString()}`}
             key={item._id}

@@ -1,10 +1,15 @@
  import React,{useContext} from 'react';
  import {SettingContext} from '../../context/todo/settings-context.js';
  import {Button,Dropdown} from 'react-bootstrap' ;
+ import { If, Else, Then } from 'react-if';
+ import {LoginContext} from '../auth/context';
+
 // import { render } from 'node-sass';
 
 const SettingsPage = (props)=>{
   const settings= useContext(SettingContext);
+  const context = useContext(LoginContext);
+
   
   const _toggleVisibility= (e)=>{
       e.preventDefault()
@@ -26,7 +31,8 @@ const SettingsPage = (props)=>{
   return(
     
     <div>
-
+        <If condition={context.loggedIn}>
+       <Then>
       <div>
        <Button onClick = {_toggleVisibility} > {(settings.showCompleted)? 'Hide Completed':'Show Completed' }</Button>
       </div>
@@ -47,7 +53,11 @@ const SettingsPage = (props)=>{
     <input name='Rap' type="number" min={1} max={10} placeholder="input a number between 1 and 10" onChange={ChangeItemsNum}></input>
     
     </div>
-
+    </Then>
+    <Else>
+        <></>
+      </Else>
+      </If>
   
   </div>
 
